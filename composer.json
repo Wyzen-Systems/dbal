@@ -24,6 +24,9 @@
         "symfony/console": "For helpful console commands such as SQL execution and import of files."
     },
     "bin": ["bin/doctrine-dbal"],
+    
+    
+    "target-dir": "doctrine/dbal",
     "autoload": {
         "psr-0": { "Doctrine\\DBAL\\": "lib/" }
     },
@@ -37,6 +40,5 @@
     },
     "archive": {
         "exclude": ["!vendor", "tests", "*phpunit.xml", ".travis.yml", "build.xml", "build.properties", "composer.phar"]
-    },
-    "target-dir": "doctrine/dbal"
+    }
 }
