@@ -38,5 +38,5 @@
     "archive": {
         "exclude": ["!vendor", "tests", "*phpunit.xml", ".travis.yml", "build.xml", "build.properties", "composer.phar"]
     },
-    "target-dir": "Doctrine/dbal"
+    "target-dir": "doctrine/dbal"
 }
